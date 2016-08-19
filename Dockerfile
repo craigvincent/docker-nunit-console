@@ -1,6 +1,6 @@
 FROM mono:4.4
 
-ENV NUNIT_VERSION 2.6.4
+ENV NUNIT_VERSION 3.4.1
 
 RUN \
     apt-get update && \

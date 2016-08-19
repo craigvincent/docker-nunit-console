@@ -1,7 +1,8 @@
 # Supported tags and `Dockerfile` links
 
-- [`latest` (*Dockerfile*)](https://github.com/ItsVeryWindy/nunit-console/2.6.4/Dockerfile)
-- [`2.6.4` (*Dockerfile*)](https://github.com/ItsVeryWindy/nunit-console/2.6.4/Dockerfile)
+- [`latest` (*Dockerfile*)](https://github.com/craigvincent/docker-nunit-console/Dockerfile)
+- [`3.4.1` (*Dockerfile*)](https://github.com/craigvincent/docker-nunit-console/tree/3.4.1/Dockerfile)
+- [`2.6.4` (*Dockerfile*)](https://github.com/craigvincent/docker-nunit-console/tree/2.6.4/Dockerfile)
 
 # What is nunit-console
 
@@ -9,9 +10,9 @@ nunit-console is part of the [NUnit unit-testing framework](http://www.nunit.org
 
 # How to use this image
 This image features an entrypoint for nunit-console. Attach a volume containing assemblies and set it as the working directory.
-    
-    docker run -v "/path/to/assemblies:/test" --workdir /test itsverywindy/nunit-console [nunit console arguments]
+
+    docker run -v "/path/to/assemblies:/test" --workdir /test craigvincent/docker-nunit-console [nunit console arguments]
 
 # Issues
 
-Please report issues on the [GitHub project](https://github.com/ItsVeryWindy/nunit-console-dockerfile).
+Please report issues on the [GitHub project](https://github.com/craigvincent/docker-nunit-console).
